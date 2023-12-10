@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Online store">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+  <link rel="stylesheet" href="style.css">
+  <title>Online store</title>
+</head>
+
+<body>
+  <section class="section-shop">
+    <!-- Cart bag -->
+    <div class="cart-bag">
+      <img class="xmark" src="./icons/xmark-solid.svg" alt="">
+      <section class="featured-bag">
+        <h2 class="featured__title">Your Bag</h2>
+        <div class="productsContainer">
+        </div>
+        <div class="lowerbag">
+          <h2 class="total">Total : 0</h2>
+          <button class="featured__btn">CHECKOUT</button>
+        </div>
+      </section>
+    </div>
+    <!-- header -->
+    <header class="header">
+      <div>
+        <ul class="navbar">
+          <li class="navbar__li"><a class="navbar__a shop" href="index.html">Home</a></li>
+          <li class="navbar__li"><a class="navbar__a active" href="shop.html">Products</a></li>
+          <li class="navbar__li"><a class="navbar__a shop" href="about.html">About</a></li>
+        </ul>
+      </div>
+      <a class="header__a" href="#">
+        <p class="header__logo shop">basik</p>
+      </a>
+      <div class="header__a header__cart shop"><img img class="bucket icon" src="./icons/cart-plus-solid.svg" alt="">
+      </div>
+    </header>
+    <main class="main-shop">
+      <h1 class="main__title grey">Home / Products</h1>
+    </main>
+  </section>
+  <!-- Products -->
+  <section class="products">
+    <div class="filter">
+      <div class="search-container">
+        <input class="input" type="text" placeholder=" Search...">
+        <button class="search-btn">Search</button>
+      </div>
+      <h2 class="shop-title">Company</h2>
+      <p class="shop-text all">All</p>
+      <p class="shop-text basik">Basik</p>
+      <p class="shop-text lili">Lili</p>
+      <p class="shop-text bartolomey">Bartolomey</p>
+      <p class="shop-text vakson">Vakson</p>
+      <div>
+        <h2 class="shop-title">Price</h2>
+        <input id="price-input" class="input-range" type="range" min="20" max="100" step="5" value="100">
+        <p class="shop-value"> Max: $ <output id="price-output"></output>
+        </p>
+      </div>
+    </div>
+    <div class="products-container product-shop" id="products-container">
+    </div>
+  </section>
+  <script src="script.js"></script>
+  <script src="products.json"></script>
+  <script src="shop.js"></script>
+</body>
+
+</html>
