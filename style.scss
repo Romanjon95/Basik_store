@@ -9,7 +9,7 @@ body {
 }
 
 .section {
-  background: url(img/first_section_background.jpg);
+  background: url(img/first_background.jpg);
   background-size: cover;
   background-position: top 25% right 0;
 }
@@ -54,7 +54,8 @@ body {
   }
   &__a:hover,
   &__a.active {
-    color: rgb(147, 24, 24);
+    color: rgb(177, 154, 28);
+    font-weight: 800;
   }
 }
 
@@ -86,7 +87,7 @@ body {
     margin-bottom: 15px;
   }
   &__btn {
-    color:white;
+    color: white;
     background: transparent;
     border: 1px solid white;
     border-radius: 3px;
@@ -101,6 +102,7 @@ body {
   background: rgb(147, 24, 24);
   color: rgb(255, 255, 255);
   border: none;
+  cursor: pointer;
 }
 
 //products section
@@ -126,13 +128,13 @@ body {
   margin: 0 auto;
   padding-top: 40px;
   &__btn {
-    color:white;
+    color: white;
     background: rgb(147, 24, 24);
     border: none;
     border-radius: 3px;
     font-size: 12px;
     width: 140px;
-    height: 30px;
+    height: 35px;
     letter-spacing: 2px;
     margin-bottom: 30px;
   }
@@ -142,8 +144,6 @@ body {
     transition: 0.3s;
   }
 }
-
-
 
 .products-container {
   display: flex;
@@ -206,7 +206,7 @@ body {
 .shop:hover {
   cursor: pointer;
   transform: scale(1.2);
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
 
 .grey {
@@ -265,6 +265,10 @@ body {
   border-radius: 3px;
   margin-bottom: 5px;
 }
+.search-btn:hover {
+  cursor: pointer;
+  color: black;
+}
 
 .input-range {
   width: 100px;
@@ -284,7 +288,7 @@ body {
 }
 
 .shop-value {
-  color:rgb(72, 72, 101);
+  color: rgb(72, 72, 101);
   font-size: 14px;
 }
 
@@ -293,7 +297,8 @@ body {
   max-width: 600px;
   padding: 30px;
   margin: 0 auto;
-  text-align: left;
+  text-align: center;
+  letter-spacing: 1px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -342,7 +347,7 @@ body {
   top: 0;
   right: -100%;
   height: 100vh;
-  background:rgb(203, 203, 203);
+  background: rgb(203, 203, 203);
   transition: 0.6s all;
   z-index: 40;
   min-width: 250px;
@@ -360,6 +365,9 @@ body {
   width: 20px;
   height: 20px;
 }
+.xmark:hover {
+  cursor: pointer;
+}
 
 .featured-bag {
   padding-top: 0;
@@ -373,14 +381,14 @@ body {
 }
 
 .bag {
-  height: 60px;
+  height: 80px;
   width: 275px;
   display: flex;
 }
 
 .bag-img {
-  height: 60px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
 }
 
 .bag-description {

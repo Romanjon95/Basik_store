@@ -80,7 +80,7 @@ window.addEventListener('click', (event) => {
     <div class="product__description bag-description">
       <p class="product__text bag-text">${productInfo.title}</p>
       <div class="product__price bag-price">${productInfo.price}</div>
-      <p class="product__price bag-remove">remove</p>
+      <p class="product__price bag-remove">eliminar</p>
     </div>
     <div class="product__counter-wrapper">
       <div class="product__control" data-action="plus">˄</div>

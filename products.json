@@ -1,84 +1,84 @@
 [
   {
     "id": 1,
-    "title": "Basik Indigenous 24cm",
+    "title": "Basik Indigeno 24cm",
     "imgSrc": "Basik_indigenous.jpeg",
     "price": 26,
     "company": "Basik"
   },
   {
     "id": 2,
-    "title": "Lili in a pink dress 24cm",
+    "title": "Lili en vestido rosado 24cm",
     "imgSrc": "Lili_pink.jpg",
     "price": 26,
     "company": "Lili"
   },
   {
     "id": 3,
-    "title": "Basik in bomber 25cm",
+    "title": "Basik en bomber 25cm",
     "imgSrc": "basik_in_bomber.jpg",
     "price": 26,
     "company": "Basik"
   },
   {
     "id": 4,
-    "title": "Vakson in hoodie 25cm",
+    "title": "Vakson en hoodie 25cm",
     "imgSrc": "Vakson_in_hoodie.jpg",
     "price": 26,
     "company": "Vakson"
   },
   {
     "id": 5,
-    "title": "Bartolomey in cap 27cm",
+    "title": "Bartolomey con gorra 27cm",
     "imgSrc": "bartolomey_in_cap.jpg",
     "price": 29,
     "company": "Bartolomey"
   },
   {
     "id": 6,
-    "title": "Lili in hoodie 24cm",
+    "title": "Lili en hoodie 24cm",
     "imgSrc": "lili_in_hoodie.jpeg",
     "price": 26,
     "company": "Lili"
   },
   {
     "id": 7,
-    "title": "Barty baby in hat 20cm",
+    "title": "Barty baby con sombrero 20cm",
     "imgSrc": "barty_front.jpg",
     "price": 23,
     "company": "Bartolomey"
   },
   {
     "id": 8,
-    "title": "Basik in t-shirt 25cm",
+    "title": "Basik en camisa 25cm",
     "imgSrc": "basik_in_t_shirt.jpg",
     "price": 26,
     "company": "Basik"
   },
   {
     "id": 9,
-    "title": "Lili baby princess 20cm",
+    "title": "Lili baby princesa 20cm",
     "imgSrc": "lili_baby_in_dress.jpg",
     "price": 23,
     "company": "Lili"
   },
   {
     "id": 10,
-    "title": "Basik baby bee 20cm",
+    "title": "Basik baby abeja 20cm",
     "imgSrc": "basik_baby_bee.jpg",
     "price": 23,
     "company": "Basik"
   },
   {
     "id": 11,
-    "title": "Basik baby with heart 20cm",
+    "title": "Basik baby con corazon 20cm",
     "imgSrc": "basik_baby_with_heart.jpg",
     "price": 23,
     "company": "Basik"
   },
   {
     "id": 12,
-    "title": "Lili baby in wreath 20cm",
+    "title": "Lili baby con guirnalda 20cm",
     "imgSrc": "lili_baby_in_wreath.jpg",
     "price": 23,
     "company": "Lili"
