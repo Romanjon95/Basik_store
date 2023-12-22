@@ -52,7 +52,7 @@ function renderProducts(productsArray) {
       <img class="product__img" src="./img/${item.imgSrc}" alt="${item.title}">
       <div class="product__description">
         <p class="product__text">${item.title}</p>
-        <p class="product__price">${item.price}</p>
+        <p class="product__price">$${item.price}</p>
         <p class="product__company">${item.company}</p>
       </div>
       <!-- counter -->

@@ -9,7 +9,7 @@ body {
 }
 
 .section {
-  background: url(img/first_section_background.jpg);
+  background: url(img/first_background.jpg);
   background-size: cover;
   background-position: top 25% right 0;
 }
@@ -52,7 +52,8 @@ body {
   transition: 0.3s ease;
 }
 .navbar__a:hover, .navbar__a.active {
-  color: rgb(147, 24, 24);
+  color: rgb(177, 154, 28);
+  font-weight: 800;
 }
 
 .icon {
@@ -97,6 +98,7 @@ body {
   background: rgb(147, 24, 24);
   color: rgb(255, 255, 255);
   border: none;
+  cursor: pointer;
 }
 
 .span {
@@ -127,7 +129,7 @@ body {
   border-radius: 3px;
   font-size: 12px;
   width: 140px;
-  height: 30px;
+  height: 35px;
   letter-spacing: 2px;
   margin-bottom: 30px;
 }
@@ -257,6 +259,11 @@ body {
   margin-bottom: 5px;
 }
 
+.search-btn:hover {
+  cursor: pointer;
+  color: black;
+}
+
 .input-range {
   width: 100px;
   height: 5px;
@@ -284,7 +291,8 @@ body {
   max-width: 600px;
   padding: 30px;
   margin: 0 auto;
-  text-align: left;
+  text-align: center;
+  letter-spacing: 1px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -346,6 +354,10 @@ body {
   height: 20px;
 }
 
+.xmark:hover {
+  cursor: pointer;
+}
+
 .featured-bag {
   padding-top: 0;
   text-align: center;
@@ -358,14 +370,14 @@ body {
 }
 
 .bag {
-  height: 60px;
+  height: 80px;
   width: 275px;
   display: flex;
 }
 
 .bag-img {
-  height: 60px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
 }
 
 .bag-description {
